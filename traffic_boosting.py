@@ -51,5 +51,5 @@ if __name__ == "__main__":
         "https://tw.download.nvidia.com/Windows/551.52/551.52-desktop-win10-win11-64bit-international-dch-whql.exe",
         "https://jp.download.nvidia.com/Windows/551.52/551.52-desktop-win10-win11-64bit-international-dch-whql.exe",
     ]
-    max_threads = 32
+    max_threads = 16
     consume_bandwidth(urls, max_threads)
